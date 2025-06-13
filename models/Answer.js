@@ -16,6 +16,10 @@ const AnswerSchema = new mongoose.Schema({
     text: String,
     commentary: String
   }],
+  fromMufassereen: [{
+  reference: String,
+  text: String
+}],
   conclusion: { type: String }
 });
 
